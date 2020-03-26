@@ -84,6 +84,7 @@ label {
     border: 1px solid #ccc;
     padding: .7em;
     width: 100%;
+    
 }
 
 .campo-medio {
@@ -145,4 +146,17 @@ button:disabled {
 .fadeOut {
     opacity: 0;
     transition: 0.5s;
+}
+
+#filtrar-tabela {
+    margin-bottom: 20px;
+    padding-bottom: 1em;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: .7em;
+    width: 32%;
+}
+
+.invisivel{
+    display: none;
 }

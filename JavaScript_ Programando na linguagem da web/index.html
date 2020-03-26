@@ -17,7 +17,9 @@
     </header>
     <main>
         <section class="container">
-            <h2>Meus pacientes</h2>
+			<h2>Meus pacientes</h2>
+			<label for="filtrar-tabela">Pesquisa:</label>
+			<input type="text" name="filtro" id="filtrar-tabela" placeholder="Digite o nome do paciente">
             <table>
                 <thead>
                     <tr>
@@ -78,19 +80,19 @@
         <form id="form-adiciona">
             <div class="grupo">
                 <label for="nome">Nome:</label>
-                <input id="nome" name="nome" type="text" placeholder="digite o nome do seu paciente" class="campo">
+                <input id="nome" name="nome" type="text" placeholder="Digite o nome do seu paciente" class="campo">
             </div>
             <div class="grupo">
                 <label for="peso">Peso:</label>
-                <input id="peso" name="peso" type="text" placeholder="digite o peso do seu paciente" class="campo campo-medio">
+                <input id="peso" name="peso" type="text" placeholder="Digite o peso do seu paciente" class="campo campo-medio">
             </div>
             <div class="grupo">
                 <label for="altura">Altura:</label>
-                <input id="altura" name="altura" type="text" placeholder="digite a altura do seu paciente" class="campo campo-medio">
+                <input id="altura" name="altura" type="text" placeholder="Digite a altura do seu paciente" class="campo campo-medio">
             </div>
             <div class="grupo">
                 <label for="gordura">% de Gordura:</label>
-                <input id="gordura" name="gordura" type="text" placeholder="digite a porcentagem de gordura do seu paciente" class="campo campo-medio">
+                <input id="gordura" name="gordura" type="text" placeholder="Digite a porcentagem de gordura do seu paciente" class="campo campo-medio">
             </div>
     
             <button id="adicionar-paciente" class="botao bto-principal">Adicionar</button>
@@ -99,7 +101,8 @@
     
     <script src="js/calcula-imc.js"></script>
     <script src="js/form.js"></script>
-    <script src="js/remover-paciente.js"></script>
+	<script src="js/remover-paciente.js"></script>
+	<script src="js/filtra.js"></script>
 </body>
 
 </html>
