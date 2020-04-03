@@ -194,7 +194,7 @@ nav a:hover {
 /* CSS - CONTATO -----------------------------------------------------------------------------*/
 
 form {
-    margin: 40px 0;
+    margin: 20px 0 40px 30%;
 }
 
 form label, form legend {
@@ -233,7 +233,7 @@ form label, form legend {
 }
 
 table {
-    margin: 20px 0 40px;
+    margin: 20px 0 40px 40%;
 }
 
 thead {
@@ -260,3 +260,48 @@ footer {
     font-size: 13px;
     margin-top: 20px;
 }
+
+/* CSS - RESPONSIVO ----------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 480px) {
+
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imgbeneficios {
+        width: 100%;
+    }
+
+    .produtos li {
+        width: 30%;
+        margin: 15px 20px 15px 40px;
+        display: list-item;
+    }
+
+    form {
+        margin: 15px 40px 15px 10%;
+    }
+
+    table {
+        margin: 15px 40px 15px 25%;
+    }
+
+    .input-padrao, .enviar{
+        margin: 0 20px 20px;
+        padding: 10px 25px;
+        width: 80%;
+    }
+    
+}
+
+
+/* FIM CSS - RESPONSIVO ----------------------------------------------------------------------------------*/
