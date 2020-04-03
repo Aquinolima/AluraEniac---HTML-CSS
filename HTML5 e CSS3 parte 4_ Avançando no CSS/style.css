@@ -50,6 +50,7 @@ nav a:hover {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+  
 }
 
 .principal {
@@ -124,6 +125,14 @@ nav a:hover {
 
 .imgbeneficios {
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+.imgbeneficios:hover {
+    opacity: 0.3;
+    
 }
 
 .video {
